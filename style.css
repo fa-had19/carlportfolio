@@ -19,7 +19,7 @@ ul li:hover{
 img{
     border-radius: 50%;
     width: 240; height: 220;
-    animation: float 3s ease-in-out infinite;
+    animation: float 8s ease-in-out infinite;
     animation: animate 3s Linear infinite;
 
 }
@@ -44,3 +44,15 @@ color: blue;
        transform: translateY(0px);
     }
 }
+@keyframes animate {
+    0%{
+       transform: translateY(0px);
+    }
+    50%{
+       transform: translateY(-60px);
+    }
+    100%{
+       transform: translateY(0px);
+    }
+}
+
