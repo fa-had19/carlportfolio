@@ -19,6 +19,7 @@ ul li:hover{
 img{
     border-radius: 50%;
     width: 240; height: 220;
+    animation: animate 4s linear infinite;
 }
 h2{
     border: 2px solid black; width: 80; 
