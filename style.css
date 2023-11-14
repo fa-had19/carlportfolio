@@ -3,7 +3,8 @@ h1 {
 }
 body{
     text-align: center;
-    background-color: bisque;
+    background-image: url("paper.gif");
+    
 }
 ul{
     margin-left: 80%;
