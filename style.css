@@ -1,0 +1,32 @@
+h1 {
+    color:black
+}
+body{
+    text-align: center;
+    background-color: bisque;
+}
+ul{
+    margin-left: 80%;
+}
+li{
+    margin-left: 80%;
+    display: inline-block;
+    margin: 2%;
+}
+ul li:hover{
+    color:red;
+}
+img{
+    border-radius: 50%;
+    width: 240; height: 220;
+}
+h2{
+    border: 2px solid black; width: 80; 
+   
+}
+h3{
+    border: 2px solid black; width: 80;
+}
+p:hover{
+color: blue;
+}
