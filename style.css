@@ -21,6 +21,7 @@ img:hover{
     width: 240; height: 220;
     animation: float 8s ease-in-out infinite;
     animation: animate 3s Linear infinite;
+    animation-delay: -1s:
     filter: grayscale(0);
 
 }
