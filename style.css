@@ -19,7 +19,9 @@ ul li:hover{
 img {
     border-radius: 50%;
     width: 240; height: 220;
-    animation: float 8s ease-in-out infinite;
+    transition: all 0.5s ease; 
+    cursor: pointer;
+    filter: grayscale (100%)
 }
 h2{
     border: 2px solid black; width: 80; 
@@ -42,5 +44,7 @@ color: blue;
        transform: translateY(0px);
     }
 }
-
+.box:hover::img{
+    filter: grayscale(0);
+}
 
