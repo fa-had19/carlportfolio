@@ -19,7 +19,7 @@ ul li:hover{
 img{
     border-radius: 50%;
     width: 240; height: 220;
-    animation: float 6s ease-out infinite;
+    animation: float 6s ease-in-out infinite;
     transform: translateX(0px);
 }
 h2{
