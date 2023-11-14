@@ -16,11 +16,12 @@ li{
 ul li:hover{
     color:red;
 }
-img{
+img:hover{
     border-radius: 50%;
     width: 240; height: 220;
     animation: float 8s ease-in-out infinite;
     animation: animate 3s Linear infinite;
+    filter: grayscale(0);
 
 }
 h2{
