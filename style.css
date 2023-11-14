@@ -19,7 +19,7 @@ ul li:hover{
 img{
     border-radius: 50%;
     width: 240; height: 220;
-    animation: animate 4s linear infinite;
+    animation: float 6s ease-out infinite;
 }
 h2{
     border: 2px solid black; width: 80; 
@@ -30,4 +30,15 @@ h3{
 }
 p:hover{
 color: blue;
+}
+@keyframes float {
+    0%{
+    transform: translateY(0px);
+    }
+    50%{
+transform: translateY(-60px);
+    }
+    100%{
+    transform: translateY(0px);
+    }
 }
