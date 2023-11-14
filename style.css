@@ -22,6 +22,9 @@ img {
     transition: all 0.5s ease; 
     cursor: pointer;
     filter: grayscale (100%)
+    position: absolute;
+    animation: animate 4s linear infinite;
+    animation-delay: -1s;
 }
 h2{
     border: 2px solid black; width: 80; 
@@ -37,4 +40,8 @@ color: blue;
 .box:hover::img{
     filter: grayscale(0);
 }
+
+    
+
+
 
