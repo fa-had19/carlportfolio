@@ -33,17 +33,7 @@ h3{
 p:hover{
 color: blue;
 }
-@keyframes float {
-    0%{
-       transform: translateY(0px);
-    }
-    50%{
-       transform: translateY(-60px);
-    }
-    100%{
-       transform: translateY(0px);
-    }
-}
+
 .box:hover::img{
     filter: grayscale(0);
 }
